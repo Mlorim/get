@@ -1,0 +1,5 @@
+n = bin(127)[2:]
+number = [0] * 8
+for i in range(len(n)):
+    number[i] = int(n[7-i])
+print(number)
